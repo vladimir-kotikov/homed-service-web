@@ -126,7 +126,7 @@ function iconName(device, endpoint, itemName, icons = true)
 
     if (meta.name == 'status')
     {
-        let list = ['light', 'lock', 'switch'];
+        let list = ['light', 'lock', 'media', 'switch'];
 
         for (let i = 0; i < list.length; i++)
         {
